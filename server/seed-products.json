@@ -1,0 +1,827 @@
+[
+ {
+  "slug": "fc-barcelona-2627-home-full-sleeve-jersey-player-edition-imported",
+  "name": "FC Barcelona 26/27 Home Full Sleeve Jersey - Player Edition (Imported)",
+  "price": 1290,
+  "originalPrice": 1450,
+  "discount": 11,
+  "images": [
+   "/assets-products/7cf868778d8e3be3.jpg"
+  ],
+  "categories": [
+   "full-sleeve-jersey",
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "real-madrid-2627-away-full-sleeve-jersey-player-edition-imported",
+  "name": "Real Madrid 26/27 Away Full Sleeve Jersey - Player Edition (Imported)",
+  "price": 1290,
+  "originalPrice": 1450,
+  "discount": 11,
+  "images": [
+   "/assets-products/5ebc5cd0ac634703.jpg"
+  ],
+  "categories": [
+   "full-sleeve-jersey",
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "liverpool-2627-home-full-sleeve-jersey-player-edition-imported",
+  "name": "Liverpool 26/27 Home Full Sleeve Jersey - Player Edition (Imported)",
+  "price": 1290,
+  "originalPrice": 1450,
+  "discount": 11,
+  "images": [
+   "/assets-products/eadb7117027b2fff.jpg",
+   "/assets-products/c7beccfdc870a33d.jpg"
+  ],
+  "categories": [
+   "full-sleeve-jersey",
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-2627-away-full-sleeve-jersey-player-edition-imported",
+  "name": "FC Barcelona Away Full Sleeve Premium Jersey 2026-27 – Player Edition (Imported)",
+  "price": 1290,
+  "originalPrice": 1450,
+  "discount": 11,
+  "images": [
+   "/assets-products/de3ab22397d7f5d6.jpg"
+  ],
+  "categories": [
+   "full-sleeve-jersey",
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "real-madrid-2627-home-full-sleeve-jersey-player-edition-imported",
+  "name": "Real Madrid Home Full Sleeve Premium Jersey 2026-27 – Player Edition (Imported)",
+  "price": 1290,
+  "originalPrice": 1450,
+  "discount": 11,
+  "images": [
+   "/assets-products/ce6298dc41a93555.jpg",
+   "/assets-products/dced6c5a263bdcf6.jpg"
+  ],
+  "categories": [
+   "full-sleeve-jersey",
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "real-madrid-2627-home-jersey-player-version-imported",
+  "name": "Real Madrid Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/bdea66dc6ed99f22.jpg",
+   "/assets-products/c440e084a5c66fa5.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "real-madrid-2627-away-jersey-player-version-imported",
+  "name": "Real Madrid Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/68ea24fac68e350d.png",
+   "/assets-products/0539da2e58f4d9e2.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "real-madrid-2627-third-kit-player-version-imported",
+  "name": "Real Madrid Third Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/911d420d71c4c62e.png",
+   "/assets-products/49867be8f86440ab.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-2627-home-jersey-player-version-imported",
+  "name": "FC Barcelona Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/36b0b8a3cb25a570.png",
+   "/assets-products/e81c807738529928.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-26-27-away-jersey-player-version-imported",
+  "name": "FC Barcelona Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/2c50005ec5fda890.png",
+   "/assets-products/d3ae1a3018e7c513.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-2627-special-fourth-kit-player-version-imported",
+  "name": "FC Barcelona Special Fourth Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/e09f4e725a78a3d8.png"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "inter-miami-2627-third-kit-player-version-imported",
+  "name": "Inter Miami Third Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/73ffcf35a85ab90c.png"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "arsenal-2627-away-jersey-player-version-imported",
+  "name": "Arsenal Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/d9a63e3c69d28db2.png",
+   "/assets-products/4aba2ca937d70eb5.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "al-nassr-2627-home-jersey-player-version-imported",
+  "name": "Al-Nassr Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/f19c7d01e265f05a.png",
+   "/assets-products/7e4fbfac15a816db.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "ac-milan-retro-home-jersey-red-black-bwin-edition",
+  "name": "AC Milan Retro Home Premium Jersey – Red & Black Bwin Edition (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/8185b4f9f032185b.png"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey",
+   "retro-jerseys"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "bff-2627-home-jersey-player-version",
+  "name": "BFF 26/27 Home Jersey - Player Version",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/7c9fa87bc9f3d774.png",
+   "/assets-products/9beb74dd60c95543.png"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2",
+   "national-team-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "bff-2627-away-jersey-player-version",
+  "name": "BFF 26/27 Away Jersey - Player Version",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/9c3d67353fe024fe.png"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2",
+   "national-team-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "argentina-home-jersey-2026-player-version-imported",
+  "name": "Argentina Home Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/f5c667475e8f3bff.png",
+   "/assets-products/0523676f692feb61.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "argentina-away-premium-jersey-2026-player-version-imported",
+  "name": "Argentina Away Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/8730c4824d6c047a.png",
+   "/assets-products/4ce0056d4a63773c.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "brazil-home-jersey-2025-26-player-version-imported",
+  "name": "Brazil Home Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/f71b20bca5a70e2d.png",
+   "/assets-products/b12a66641967e6cb.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "brazil-x-jordan-2026-special-white-green-kit",
+  "name": "Brazil X Jordan White & Green Premium Jersey 2026 – Special Edition (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/693e79836dce44a0.png",
+   "/assets-products/0f5e49c4f4b628c4.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "spain-away-premium-jersey-2026-player-version-imported",
+  "name": "Spain Away Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/c1b53737c09a907f.png"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "portugal-2526-authentic-special-edition-jersey",
+  "name": "Portugal 25/26 Authentic Special Edition Jersey",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/9f10448859c1ce41.png"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "germany-away-premium-jersey-2026-player-version-imported",
+  "name": "Germany Away Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/b0647ea77f76836a.png",
+   "/assets-products/dc44053e1ceff1d5.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "france-home-premium-jersey-2026-player-version-imported",
+  "name": "France Home Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/965b885df9b45eea.png",
+   "/assets-products/8b2eaba5815bbc70.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "juventus-2627-home-jersey-player-version-imported",
+  "name": "Juventus Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/644b7dbcdff980e5.png",
+   "/assets-products/f0852bef96ba6c3a.jpg"
+  ],
+  "categories": [
+   "football-club-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "inter-miami-2627-away-jersey-player-version-imported",
+  "name": "Inter Miami Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/5d4fa7c7493fdab1.png",
+   "/assets-products/c4ce1caab3f75bf8.jpg"
+  ],
+  "categories": [
+   "football-club-jersey",
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "saudi-arabia-home-premium-jersey-2026-player-version",
+  "name": "Saudi Arabia Home Premium Jersey 2026 - Player Version",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/a7d7a7661e1e79dd.png",
+   "/assets-products/8cf4e2c311ed528a.jpg"
+  ],
+  "categories": [
+   "football-country-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "spain-home-premium-jersey-2026-player-version-imported",
+  "name": "Spain Home Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/68bc7b05f1d21f06.png",
+   "/assets-products/19e5766239a6bb7c.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "argentina-2026-terrace-kit-premium-jersey",
+  "name": "Argentina Terrace Kit 2026 – Premium Jersey (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/3c78cfcf4f5ce330.png",
+   "/assets-products/21921a0a762a7113.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "germany-special-125-year-anniversary-kit-imported",
+  "name": "Germany Premium Jersey – 125 Year Anniversary Edition (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/7578032a7047d0bc.png",
+   "/assets-products/045133bfab89f6af.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "argentina-home-premium-jersey-2026-fan-edition",
+  "name": "Argentina Home Premium 2026 – Fan Edition Jersey",
+  "price": 790,
+  "originalPrice": 800,
+  "discount": 1,
+  "images": [
+   "/assets-products/bd948193b6816603.png",
+   "/assets-products/8c3e0d5814bbf503.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "brazil-away-premium-jersey-2026-player-version-imported",
+  "name": "Brazil Away Premium Jersey 2026 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/38746dc2fb53f9e6.png",
+   "/assets-products/7f0a0e69821ee053.jpg"
+  ],
+  "categories": [
+   "football-country-jersey",
+   "half-sleeve-jersey-2"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-classic-stripe-polo-jersey-special-edition",
+  "name": "FC Barcelona Classic Stripe Polo Jersey – Special Edition",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/ed9c5918814db893.jpg",
+   "/assets-products/86aca7df8c8d44e8.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "atletico-madrid-2627-away-jersey-player-version-imported",
+  "name": "Atlético Madrid Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/72a4d19418107904.png",
+   "/assets-products/554c1cb507745ea8.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "flamengo-2627-home-jersey-player-version-imported",
+  "name": "Flamengo Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/dadcf5bf5452dbcb.png",
+   "/assets-products/9333c1d138532a77.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "manchester-city-2627-away-jersey-player-version-imported",
+  "name": "Manchester City Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/bdc060e92fc43894.png",
+   "/assets-products/5ac3cdcfd99d9c1b.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "fc-barcelona-2627-third-jersey-player-version-imported",
+  "name": "FC Barcelona Third Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/3d471472f1d2621c.png",
+   "/assets-products/958a49cacf099f06.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "manchester-city-2627-third-jersey-player-version-imported",
+  "name": "Manchester City Third Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/3b3cada864f5a9c8.png",
+   "/assets-products/803d02fcaa1053bb.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "borussia-dortmund-2627-home-jersey-player-version-imported",
+  "name": "Borussia Dortmund Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/0d244fce8bc44357.png",
+   "/assets-products/cacefd03ba3f585b.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "chelsea-2627-home-jersey-player-version-imported",
+  "name": "Chelsea Home Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/571b514ffe08eab6.png",
+   "/assets-products/3c344d4b0fa6d911.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "manchester-united-2627-away-jersey-player-version-imported",
+  "name": "Manchester United Away Premium Jersey 2026-27 – Player Version (Imported)",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/e3e1fefc00117752.png",
+   "/assets-products/e2589e9e1ef53895.jpg"
+  ],
+  "categories": [
+   "half-sleeve-jersey"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-003",
+  "name": "Men's Imported Shorts – SH-003",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/3f28e2aff53a4357.jpg",
+   "/assets-products/fca6c7d0a6383801.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-008",
+  "name": "Men's Imported Shorts – SH-008",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/c5f39d0d281b67f3.jpg",
+   "/assets-products/d91bd0b40cb3302e.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-007",
+  "name": "Men's Imported Shorts – SH-007",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/b6b66b21607f94dc.jpg",
+   "/assets-products/011b081c9ff2bef3.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-006",
+  "name": "Men's Imported Shorts – SH-006",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/f06de00e12c1bc35.jpg",
+   "/assets-products/8bf7f7c2b7d1d2c8.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-005",
+  "name": "Men's Imported Shorts – SH-005",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/a232089206d84289.jpg",
+   "/assets-products/8a8b14b68d19f123.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-004",
+  "name": "Men's Imported Shorts – SH-004",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/15521ac51f3cf9d4.jpg",
+   "/assets-products/feed8a8eb6c2f584.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-002",
+  "name": "Men's Imported Shorts – SH-002",
+  "price": 990,
+  "originalPrice": 1250,
+  "discount": 21,
+  "images": [
+   "/assets-products/921efe1e50d40832.jpg",
+   "/assets-products/7fda108d30cd9249.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ },
+ {
+  "slug": "mens-imported-shorts-sh-001",
+  "name": "Men's Imported Shorts – SH-001",
+  "price": 1250,
+  "originalPrice": null,
+  "discount": null,
+  "images": [
+   "/assets-products/f885a9990a4b7f92.jpg",
+   "/assets-products/af67703d2a80ea63.jpg"
+  ],
+  "categories": [
+   "shorts"
+  ],
+  "stock": 50,
+  "enabled": true
+ }
+]

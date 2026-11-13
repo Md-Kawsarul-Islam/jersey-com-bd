@@ -1,0 +1,39 @@
+# Render Infrastructure-as-Code — deploys the whole app (storefront + admin + API + DB)
+# as one Node web service with a persistent disk for orders/products/uploads.
+#
+# How to use:
+#   1. Push this repo to GitHub (private repo recommended)
+#   2. Render dashboard → New + → Blueprint (or "Web Service" using this file)
+#   3. Render detects this file, provisions the service + disk
+#   4. In Render dashboard → Environment, set ADMIN_PASSWORD to a strong secret
+#      (it is intentionally NOT stored in this file)
+#   5. First boot seeds the product catalog into the persistent disk automatically.
+#
+# Local dev is unaffected (uses ./server/data/db.json).
+
+services:
+  - type: web
+    name: jersey-com-bd
+    runtime: node
+    plan: starter          # $7/mo — required for the persistent disk; free plan has an ephemeral filesystem (orders would be wiped on every redeploy)
+    region: singapore      # closest to Bangladesh — change if you prefer another region
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true       # every push to the connected branch redeploys automatically
+    disk:
+      name: jersey-com-bd-data
+      mountPath: /persist/data
+      sizeGB: 10           # upgrade size on the dashboard any time
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JBD_DB_PATH
+        value: /persist/data/db.json        # uploads automatically land at /persist/data/uploads
+      - key: JBD_FREE_DELIVERY_THRESHOLD
+        value: "2000"
+      - key: ADMIN_PASSWORD
+        sync: false                          # set in Render dashboard → Environment — never commit the real value
+      # Optional: only if you ever host the frontend separately from this service
+      # - key: ALLOWED_ORIGINS
+      #   value: https://jersey.com.bd,https://www.jersey.com.bd
