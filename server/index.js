@@ -577,7 +577,10 @@ const ALLOWED_IMAGE_TYPES = {
 };
 const MAX_IMAGE_BYTES = 8 * 1024 * 1024; // 8 MB per image (post resize)
 
-app.use(UPLOAD_PUBLIC, express.static(UPLOAD_DIR, { maxAge: '30d', fallthrough: true }));
+// /uploads serves real files only; missing names return 404 (not the SPA shell)
+app.use(UPLOAD_PUBLIC, express.static(UPLOAD_DIR, { maxAge: '30d', fallthrough: true }), (req, res) =>
+  res.status(404).json({ error: 'Image not found.' })
+);
 
 /** Save a base64 data URL to disk; returns the public path. */
 function saveDataUrl(dataUrl, index = 0) {
