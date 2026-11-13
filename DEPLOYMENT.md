@@ -41,7 +41,7 @@ This guide deploys the site as a **single Render Free Web Service** — storefro
    | Region | `Singapore` (closest to Bangladesh; picked at creation) |
    | Branch | `main` |
    | Runtime | `Node` |
-   | Build Command | `npm install && npm run build` |
+   | Build Command | `npm install && npm run build` (or `npm install --include=dev && npm run build`) |
    | Start Command | `npm start` |
    | Instance Type | **Free** ($0/month) — do NOT pick anything marked $ |
 
