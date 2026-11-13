@@ -135,10 +135,19 @@ function backfillOrder(raw) {
 
 export function loadDb() {
   if (cache) return cache;
-  mkdirSync(DATA_DIR, { recursive: true });
+  // Never let a read-only or absent filesystem crash the process (Render Free has an ephemeral disk).
+  try {
+    mkdirSync(DATA_DIR, { recursive: true });
+  } catch (err) {
+    console.warn('[db] Could not create data dir — running on in-memory seed only:', err.message);
+  }
   if (!existsSync(DB_PATH)) {
     cache = emptyDb();
-    persist(cache);
+    try {
+      persist(cache);
+    } catch (err) {
+      console.warn('[db] Could not seed db.json (filesystem not writable) — continuing with in-memory data:', err.message);
+    }
   } else {
     try {
       cache = JSON.parse(readFileSync(DB_PATH, 'utf8'));
@@ -162,9 +171,16 @@ export function loadDb() {
 }
 
 export function persist(db = cache) {
-  const tmp = DB_PATH + '.tmp';
-  writeFileSync(tmp, JSON.stringify(db, null, 1), 'utf8');
-  renameSync(tmp, DB_PATH);
+  // Atomic write; on an ephemeral/unwritable filesystem, log and keep serving in-memory instead of crashing.
+  try {
+    const tmp = DB_PATH + '.tmp';
+    writeFileSync(tmp, JSON.stringify(db, null, 1), 'utf8');
+    renameSync(tmp, DB_PATH);
+    return true;
+  } catch (err) {
+    console.warn('[db] Could not persist db.json — changes are in-memory only:', err.message);
+    return false;
+  }
 }
 
 export function getProducts() {

@@ -563,7 +563,11 @@ const UPLOAD_DIR =
   (process.env.JBD_DB_PATH
     ? path.join(path.dirname(process.env.JBD_DB_PATH), 'uploads')
     : path.join(__dirname, 'data', 'uploads'));
-mkdirSync(UPLOAD_DIR, { recursive: true });
+try {
+  mkdirSync(UPLOAD_DIR, { recursive: true });
+} catch (err) {
+  console.warn('[uploads] Could not create uploads dir — image uploads will fail until storage is writable:', err.message);
+}
 const UPLOAD_PUBLIC = '/uploads';
 const ALLOWED_IMAGE_TYPES = {
   'image/jpeg': 'jpg',
@@ -755,8 +759,9 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ error: err.message || 'Internal server error.' });
 });
 
-app.listen(PORT, () => {
+// Bind to 0.0.0.0 explicitly as required by Render/Fly/etc. (Render injects PORT, defaulting to 10000 there)
+app.listen(PORT, '0.0.0.0', () => {
   loadDb(); // initialize db.json on boot
-  console.log(`[server] Jersey.com.bd API listening on http://localhost:${PORT}`);
-  console.log(`[server] Admin panel: http://localhost:${PORT}/admin  (password from ADMIN_PASSWORD)`);
+  console.log(`[server] Jersey.com.bd API listening on http://0.0.0.0:${PORT}`);
+  console.log(`[server] Admin panel: http://0.0.0.0:${PORT}/admin  (password from ADMIN_PASSWORD)`);
 });
