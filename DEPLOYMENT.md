@@ -37,7 +37,7 @@ This guide deploys the site as a **single Render Free Web Service** — storefro
 
    | Field | Enter |
    |---|---|
-   | Name | `jersey-com-bd` (or `jerseybd` — the URL becomes `https://jersey-com-bd.onrender.com`) |
+   | Name | `jersey` — the URL becomes `https://jersey.onrender.com` |
    | Region | `Singapore` (closest to Bangladesh; picked at creation) |
    | Branch | `main` |
    | Runtime | `Node` |
@@ -67,7 +67,7 @@ This guide deploys the site as a **single Render Free Web Service** — storefro
    ```
    The first deploy typically takes 3–6 minutes. Render marks it **Live** (green) when `/api/health` returns 200 — usually 10–60 seconds after the server starts.
 
-8. Open your URL: **https://jersey-com-bd.onrender.com**
+8. Open your URL: **https://jersey.onrender.com**
    - Storefront should load with all 50 products
    - `/api/health` → `{"ok":true,…}`
    - `/admin` → login with the `ADMIN_PASSWORD` you set in step 5
@@ -115,9 +115,9 @@ If you want real persistence on the free tier, the **Firebase** route is the lig
 ## Phase D — custom domain (jersey.com.bd)
 
 1. Render dashboard → your service → **Settings** → scroll to **Custom Domains** → **Add Custom Domain** → enter `jersey.com.bd`
-2. Render shows a CNAME/ALIAS target like `jersey-com-bd.onrender.com`
+2. Render shows a CNAME/ALIAS target like `jersey.onrender.com`
 3. At your domain registrar (or Cloudflare):
-   - Add a **CNAME** record: name `@` (or `jersey.com.bd`) → value `jersey-com-bd.onrender.com`
+   - Add a **CNAME** record: name `@` (or `jersey.com.bd`) → value `jersey.onrender.com`
    - If your DNS provider doesn’t support CNAME at the root, use an **ALIAS/ANAME** record, or move DNS to Cloudflare (free) and use a CNAME flattened at root
    - Add `www` CNAME → same target if you want `www.jersey.com.bd` too
 4. Wait for propagation (minutes to 24 h). Render auto-issues HTTPS via Let’s Encrypt — nothing to click.
